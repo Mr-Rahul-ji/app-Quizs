@@ -1,0 +1,67 @@
+#quizss {
+    width: 110px;
+    white-space: pre-line;
+    text-align: center;
+
+}
+
+#timer {
+    width: 30px;
+}
+
+#back button {
+    margin-right: 50px;
+}
+
+.refresh i {
+    font-size: 50px;
+    white-space: pre-line;
+}
+
+.card {
+    max-width: 1800px;
+    background-color: rgb(176, 239, 255);
+
+
+}
+
+li {
+    list-style-type: circle;
+    cursor: pointer;
+    margin: 20px 0;
+    margin-right: 1150px;
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+    white-space: pre-line;
+}
+
+#btn {
+    border-radius: 50px;
+
+}
+
+.options li .card {
+
+    font-size: large;
+    font-weight: bolder;
+
+    list-style-type: none;
+
+    position: absolute;
+
+}
+
+.question div h3 {
+    border: 1px solid black;
+}
+
+.options li .card h5 {
+
+    font-size: large;
+    font-weight: bolder;
+
+    list-style-type: none;
+
+    position: absolute;
+}

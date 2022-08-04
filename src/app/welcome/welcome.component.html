@@ -1,0 +1,45 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Rubik+Moonrocks&display=swap" rel="stylesheet">
+
+
+
+<div class="img" id="btn">
+    <img src="https://conferenceboard.esgauge.org/assets/images/es-logo.png" alt="esgauge">
+</div>
+
+
+<div class="container bg-light py-5">
+    <h3 class="display " id="QUIZ">Welcome to Quiz App</h3>
+    <h4>This Quiz will contains Total 100 Questions. Each Question gives you 1 Marks :</h4>
+    <h5>Rules : </h5>
+
+    <ol>
+        <li>Correct Question Gives you 1 Marks</li>
+        <li> incorrect Question gives to -1 Marks</li>
+        <li> You will have 1 hour answer all Questions</li>
+        <li> 1 hour After Submit the Questions and refresh the page </li>
+
+    </ol>
+    <h1 id="QUIZS"> All The Best</h1>
+    <div class=" name col-md-4 my-3">
+        <label for="">
+            <h3 id="name">Enter Your Name :</h3>
+        </label>
+        <input #name type="text" class="form-control" [(ngModel)]="username">
+
+    </div>
+    <div id="start">
+
+        <button class=" btn btn-primary btn-lg" (click)="startquiz()"> Start The Quiz</button>
+
+
+
+        <!-- <app-question parentData="parentData" [name]="username"></app-question> -->
+
+    </div>
+
+</div>
